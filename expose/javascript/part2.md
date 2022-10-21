@@ -32,5 +32,7 @@
   e. `False`, `true` is converted to `1` and `1 == 2` is false.<br>
   f. `True`, since `2` isn't empty nor `0`, then `Boolean(2)` is true, and `true === true` is true.<br>
 15. They both check if both sides of the operator are equal, but `==` allows type conversion and `===` doesn't.
-16. See part2-question16.js
-17. 
+16. See part2-question16.js file
+17. The result would be an array `[2,4,6]`. `modifyArray` creates a new array and pushes all elements of `[1,2,3]` into it using a for loop. In the process of that, each element is processed in callback(), which is inputted as doSomething(), which multiplies the inputted number by 2. So each number pushed into `newArr` is double the number of the original array.
+18. See part2-question18.js file
+19. The output is `1 4 3 2`. Because `1` and `4` are outputted immediately since there's no timeout and are outputted in order. But for `3`, although the delay is set to 0, there's a approximately 4 ms delay due to the browser minimum delay. `2` has a longer delay so it's outputted last.
