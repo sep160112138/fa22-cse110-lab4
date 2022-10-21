@@ -9,3 +9,28 @@
 9. Variable `i` in this question is declared the same way as question 5, so similarly, line 11 produces an error for the same reason it's out of scope and not in the for loop.
 10. The variable `length` is declared as a constant and was only assigned once and never reassigned. So there's no error with that variable and line 12 prints the length of `prices` which is 3.
 11. Throughout the entire function, `discounted` was never reassigned, but instead modified internally by pushing values into it. Because there's no reassignment, there's no error, and the function returns the same values as it did in questions 4 and 8.
+12. 
+  a. `student.name`
+  b. `student['Grad Year']`
+  c. `student.greeting()`
+  d. `student['Favorite Teacher'].name`
+  e. `student.courseLoad[0]`
+13.
+  a. Output is `'32'` since integer 2 maps to its string representation
+  b. Output is `1` since the minus sign is a mathematical expression and the string `'3'` is automatically converted into a number `3`.
+  c. Output is `3` since plus sign number `3` and plus sign makes the `null` automatically convert to `0`
+  d. Output is `'3null'` since `'3'` suggests an automatic conversion of `null` into `"null"`, and the strings are appended.
+  e. Output is `4` since number `3` and plus sign automatically converted `true` to `1`.
+  f. Output is `0` since the plus sign automatically converts `false` to `0` and `null` to `0`.
+  g. Output is `'3undefined'` since `'3'` is a string so it converts `undefined` to `'undefined`' and appends it.
+  h. Output is `NaN` since the minus sign is a mathematical expression and string `'3'` is converted into number `3`. And in math 3-undefined is undefined so the output is undefined as a number, so `NaN`.
+14.
+  a. `True`, `'2'` gets converted to number `2` and `2 > 1` is true.
+  b. `False`, both are strings and are compared a character at a time. The first character of `'12'` is `'1'` and it's less than `'2'` lexicographically.
+  c. `True`, `'2'` gets converted to number `2` and `2 == 2` is true.
+  d. `False`, `===` disallows type conversion so `'2'` is a different type than `2`.
+  e. `False`, `true` is converted to `1` and `1 == 2` is false.
+  f. `True`, since `2` isn't empty nor `0`, then `Boolean(2)` is true, and `true === true` is true.
+15. They both check if both sides of the operator are equal, but `==` allows type conversion and `===` doesn't.
+16. See part2-question16.js
+17. 
