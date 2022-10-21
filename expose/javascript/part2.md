@@ -10,7 +10,7 @@
 10. The variable `length` is declared as a constant and was only assigned once and never reassigned. So there's no error with that variable and line 12 prints the length of `prices` which is 3.
 11. Throughout the entire function, `discounted` was never reassigned, but instead modified internally by pushing values into it. Because there's no reassignment, there's no error, and the function returns the same values as it did in questions 4 and 8.
 12. 
-&nbsp;&nbsp;a. `student.name`<br>
+> a. `student.name`<br>
   b. `student['Grad Year']`
   c. `student.greeting()`
   d. `student['Favorite Teacher'].name`
