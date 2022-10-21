@@ -11,12 +11,12 @@
 11. Throughout the entire function, `discounted` was never reassigned, but instead modified internally by pushing values into it. Because there's no reassignment, there's no error, and the function returns the same values as it did in questions 4 and 8.
 12. 
 > a. `student.name`<br>
-  b. `student['Grad Year']`
-  c. `student.greeting()`
-  d. `student['Favorite Teacher'].name`
-  e. `student.courseLoad[0]`
+  b. `student['Grad Year']`<br>
+  c. `student.greeting()`<br>
+  d. `student['Favorite Teacher'].name`<br>
+  e. `student.courseLoad[0]`<br>
 13.
-  a. Output is `'32'` since integer 2 maps to its string representation
+> a. Output is `'32'` since integer 2 maps to its string representation
   b. Output is `1` since the minus sign is a mathematical expression and the string `'3'` is automatically converted into a number `3`.
   c. Output is `3` since plus sign number `3` and plus sign makes the `null` automatically convert to `0`
   d. Output is `'3null'` since `'3'` suggests an automatic conversion of `null` into `"null"`, and the strings are appended.
