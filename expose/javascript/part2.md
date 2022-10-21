@@ -5,3 +5,7 @@
 5. There will be an error because the `let` declares `i` in the scope of the for loop, but line 12 is outside of the scope and can't access `i`.
 6. Likewise, `discountedPrice` is declared with the scope inside the for loop, but line 13 is outside of the scope so it can't access `discountedPrice`. So there will be an error.
 7. Because the `finalPrice` variable is declared in the same scope as line 14, line 14 can access the value of `finalPrice` and it'll output the last iteration in the for loop, which is same as question 2 - `150`. 
+8. The function will, again, return an array same as the one in question 4 because `discountedPrices` was declared in the scope of the function.
+9. Variable `i` in this question is declared the same way as question 5, so similarly, line 11 produces an error for the same reason it's out of scope and not in the for loop.
+10. The variable `length` is declared as a constant and was only assigned once and never reassigned. So there's no error with that variable and line 12 prints the length of `prices` which is 3.
+11. Throughout the entire function, `discounted` was never reassigned, but instead modified internally by pushing values into it. Because there's no reassignment, there's no error, and the function returns the same values as it did in questions 4 and 8.
